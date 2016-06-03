@@ -4,5 +4,5 @@
   gather_facts: yes
   tasks:
     - name: shutdown the switch
-      command: "shutdown 1"
+      command: shutdown
       become: yes
